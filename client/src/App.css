@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.todos-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.todo {
+  list-style: none;
+}
